@@ -1,6 +1,0 @@
-# view AndroidManifest.xml #generated:13
--keep class text.com.MainActivity { <init>(...); }
-
-# view AndroidManifest.xml #generated:20
--keep class text.com.SMSReceiver { <init>(...); }
-

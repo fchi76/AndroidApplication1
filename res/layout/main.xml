@@ -38,8 +38,18 @@
         android:layout_marginTop="36dp"
         android:hint="Send"  />
     
+        <Button
+        android:id="@+id/langBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/sendBtn"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:onClick="btnSelect_Lang_Click"
+        android:hint="Language Setup"  />
+    
    
-    <EditText
+    <TextView
         android:id="@+id/textMsg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,9 +58,8 @@
         android:layout_marginTop="25dp"
         android:ems="10" 
         android:hint="TextMsg">
-        
-        <requestFocus />
-    </EditText>
+    </TextView>
+
     
 </LinearLayout>
 
